@@ -1,0 +1,37 @@
+{
+  "name": "tree-sitter-edgeql",
+  "version": "1.0.0",
+  "description": "Tree-sitter grammar for EdgeQL query language used by EdgeDB database",
+  "main": "./bindings/node",
+  "scripts": {
+    "test": "tree-sitter test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotttrinh/tree-sitter-edgeql.git"
+  },
+  "keywords": [
+    "tree-sitter",
+    "edgeql",
+    "edgedb",
+    "parser",
+    "grammar",
+    "database",
+    "query",
+    "language",
+    "syntax",
+    "highlighting"
+  ],
+  "author": "Scott Trinh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scotttrinh/tree-sitter-edgeql/issues"
+  },
+  "homepage": "https://github.com/scotttrinh/tree-sitter-edgeql#readme",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.7"
+  }
+}
