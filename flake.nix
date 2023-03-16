@@ -18,9 +18,8 @@
           devShell = pkgs.mkShell {
             buildInputs = with pkgs;
               [
-                clang
-                libiconv
                 nodejs-18_x
+                tree-sitter
               ] ++ (if stdenv.isDarwin then [ libiconv clang ] else [ gcc ]);
           };
         });
