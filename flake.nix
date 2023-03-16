@@ -19,7 +19,9 @@
             buildInputs = with pkgs;
               [
                 nodejs-19_x
-              ];
+                clang
+                libiconv
+              ] ++ (if stdenv.isDarwin then [ libiconv clang ] else [ gcc ]);
           };
         });
 }
